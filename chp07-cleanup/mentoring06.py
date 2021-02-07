@@ -80,4 +80,3 @@ for row in new_zipped_data:
             datatypes[question][key] += 1
 
 print(datatypes)
-

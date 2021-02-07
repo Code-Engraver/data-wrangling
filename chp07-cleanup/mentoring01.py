@@ -12,7 +12,7 @@ MICS(Multiple Indicator Cluster Surveys, 다수지표군조사)의 결과물이�
 대부분의 MICS 미가공 데이터는 SPSS 형식 또는 .sav 파일로 제공된다.
 책의 저자는 SPSS 형식의 파일을 csv 로 변환시켜 두었다.
 """
-from csv import DictReader, reader
+from csv import DictReader
 import os
 
 data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
