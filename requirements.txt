@@ -7,6 +7,7 @@ bokeh==2.2.3
 cairocffi==1.2.0
 CairoSVG==2.5.1
 camelot-py==0.8.2
+certifi==2020.12.5
 cffi==1.14.4
 chardet==4.0.0
 click==7.1.2
@@ -19,6 +20,7 @@ defusedxml==0.6.0
 distro==1.5.0
 et-xmlfile==1.0.1
 fuzzywuzzy==0.18.0
+idna==2.10
 isodate==0.6.0
 jdcal==1.4.1
 Jinja2==2.11.3
@@ -52,6 +54,7 @@ python-slugify==4.0.1
 pytimeparse==1.1.8
 pytz==2021.1
 PyYAML==5.4.1
+requests==2.25.1
 six==1.15.0
 slate3k==0.5.3
 sortedcontainers==2.3.0
@@ -62,5 +65,6 @@ tinycss==0.4
 tinycss2==1.1.0
 tornado==6.1
 typing-extensions==3.7.4.3
+urllib3==1.26.3
 webencodings==0.5.1
 xlrd==1.2.0
