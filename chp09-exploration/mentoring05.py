@@ -50,3 +50,6 @@ highest_cpi_cl = africa_cpi_cl.where(lambda x: highest_rates(x))
 
 for r in highest_cpi_cl.rows:
     print(f"{r['Country / Territory']}: {r['Total (%)']}% - {r['CPI 2013 Score']}")
+
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'africa_cpi_cl.pickle'), 'wb') as f:
+    pickle.dump(africa_cpi_cl, f)
