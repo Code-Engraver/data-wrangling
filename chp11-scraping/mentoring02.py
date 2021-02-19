@@ -34,4 +34,3 @@ for d in navigation_bar.descendants:
         for s in d.previous_sibling:
             print(s)
     print('=' * 100)
-
